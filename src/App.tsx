@@ -14,7 +14,9 @@ const App = () => {
       <Greetings text="Nazdar" />
       <Greetings text="hello" />
       <Counter value={a} setValue={setA} />
-      <Counter />
+      +
+      <Counter value={b} setValue={setB} />
+      = {a + b}
     </>
   )
 }
